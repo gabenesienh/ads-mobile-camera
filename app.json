@@ -9,13 +9,17 @@
           "recordAudioAndroid": true,
           "barcodeScannerEnabled": true
         }
-      ]
+      ],
+      "expo-router",
+      "expo-font"
     ],
     "name": "app-camera",
     "slug": "app-camera",
     "version": "1.0.0",
+    "platforms": ["android"],
     "orientation": "portrait",
     "icon": "./assets/icon.png",
+    "scheme": "app-camera",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
@@ -35,6 +39,9 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "experiments": {
+      "typedRoutes": true
     }
   }
 }
